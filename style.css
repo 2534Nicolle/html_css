@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0156aa; 
+    color: #177faf;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+form {
+    background-color: #ffffff;
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 600px; 
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+}
+
+
+form label {
+    font-weight: bold;
+    color: #177faf;
+    margin-bottom: 8px;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1em;
+    color: #177faf;
+    background-color: white; 
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form textarea:focus {
+    border-color: #66afe9; 
+    outline: none;
+}
+
+
+form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+
+form button {
+    background-color: #b22bd0; 
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+form button:hover {
+    background-color: #45a049;
+}
+
